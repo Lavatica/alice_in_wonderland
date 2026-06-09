@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    max-width: 50em;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding: 2em;
+    text-align: left;
+    background-color: linen;
+    color: #3d1c02; /* chocolate brown */
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+a {
+    color: #004d00; /* dark green passed webAIM contrast check */
+}
+h1 {
+    font-family: "IM Fell English", serif;
+        text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #3d1c02;
+}
+h2 {
+    font-family: "IM fell English", serif;
+    color: #004d00; /* dark green passed webAIM contrast check */
+}
+img {
+    float: left;
+    margin: 0 1em 1em 0;
+    border: 3px solid #004d00;
+    border-radius: 4px 
+}
+blockquote {
+    text-align-last: center;
+}
+.divider {
+    color: #004d00; /* dark green passed webAIM contrast check */
+    text-align: center;
+}
+.float-right {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 300px;
+}
+.float-left {
+   float:left;
+    margin: 1 1em 1em 0;
+    width: 400px
+}
+footer {
+    padding: 1em;
+    margin-top: 2em;
+}
